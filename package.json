@@ -1,0 +1,26 @@
+{
+  "name": "tasklist-node",
+  "version": "1.0.0",
+  "description": "Repositório para a reprodução da atividade 'Lista de Tarefas' da aula de Desenvolvimento web 3.",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/pinkiepieisa/Tasklist-Node.js.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/pinkiepieisa/Tasklist-Node.js/issues"
+  },
+  "homepage": "https://github.com/pinkiepieisa/Tasklist-Node.js#readme",
+  "dependencies": {
+    "body-parser": "^2.2.0",
+    "express-handlebars": "^8.0.3"
+  }
+}
