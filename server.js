@@ -24,6 +24,6 @@ app.post('/tarefas/:id/editar', tarefasController.editarTarefa);
 app.get('/tarefas/:id/excluir', tarefasController.excluirTarefa);
 
 //Iniciar o servidor
-app.listen(300, () => {
+app.listen(3000, () => {
     console.log("Servidor rodando em http://localhost:3000");
 });
